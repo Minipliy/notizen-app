@@ -1,0 +1,23 @@
+# macOS / Xcode
+.DS_Store
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# Build-Ergebnisse (Archive, exportierte Pakete)
+build/*.xcarchive
+build/export-*/
+build/upload-*/
+
+# Server-Daten und Tokens nie einchecken
+.notizen-server/
+token.txt
+*.db
+
+# Fertig gebaute Mac-App
+Mac-App/
+
+# Persönliches (eigene Website, App-Store-Angaben, Signierung) nie hochladen
+privat/
+app/Signing.local.xcconfig
+build/

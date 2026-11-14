@@ -1,0 +1,11 @@
+// Signierung der App.
+// Diese Datei ist ein Platzhalter. Deine eigenen Werte (Team und Bundle-ID) trägst du
+// am einfachsten direkt in Xcode ein (siehe ANLEITUNG.md, Schritt 3).
+// Alternativ: Datei "Signing.local.xcconfig" neben dieser anlegen (wird nicht hochgeladen), z. B.:
+//   DEVELOPMENT_TEAM = ABCDE12345
+//   PRODUCT_BUNDLE_IDENTIFIER = de.deinname.notizen
+
+PRODUCT_BUNDLE_IDENTIFIER = com.example.notizen
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"
